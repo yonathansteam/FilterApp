@@ -165,7 +165,8 @@ class ProductViewController: UIViewController, FilterProtocol {
                             //print("price : ",price)
                             
                             if let string = price, let productPrice = Int(string){
-                                if checkProductPrice(productPrice, minPrice, maxPrice) && shop.title == "Official Store" || shop.title == "Gold Merchant"{
+                                if checkProductPrice(productPrice, minPrice, maxPrice) && shop.title == "Official Store" ||
+                                    checkProductPrice(productPrice, minPrice, maxPrice) && shop.title == "Gold Merchant" {
                                     print("validasi sukses gold merchant dan official store")
                                     filteredItem.append(item)
                                 } else {

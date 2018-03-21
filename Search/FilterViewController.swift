@@ -61,8 +61,8 @@ class FilterViewController: UIViewController {
     }
     
     func setFromLastFilter(){
-        print("LAST FILTER DATA MIN PRICE       : ",self.maxPrice)
-        print("LAST FILTER DATA MAX PRICE       : ",self.minPrice)
+        print("LAST FILTER DATA MIN PRICE       : ",self.minPrice)
+        print("LAST FILTER DATA MAX PRICE       : ",self.maxPrice)
         print("LAST FILTER DATA WHOLESALE FLAG  : ",self.wholeSaleFlag)
         print("LAST FILTER DATA GOLD MERCH FLAG : ",self.goldMerchantFlag)
         print("LAST FILTER DATA OFFICIAL STORE  : ",self.officalStoreFlag)
